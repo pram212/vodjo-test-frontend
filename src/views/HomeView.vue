@@ -87,19 +87,19 @@ onMounted(async () => {
           {{ exportStore.exporting ? 'Sedang Mengexport...' : 'Export Data' }}
         </button>
       </div>
-      <form @submit.prevent="handleFilter" class="my-4 p-3 rounded-sm bg-gray-200">
+      <form @submit.prevent="handleFilter" class="my-4 p-3 rounded-sm bg-gray-100">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
           <fieldset class="fieldset">
             <legend class="fieldset-legend text-black">No. Order</legend>
-            <input type="text" v-model="filter.order_no" class="input w-full bg-white" placeholder="Type here" />
+            <input type="text" v-model="filter.order_no" class="input w-full bg-gray-300" placeholder="Type here" />
           </fieldset>
           <fieldset class="fieldset">
             <legend class="fieldset-legend text-black ">Dari Tanggal</legend>
-            <input type="date" v-model="filter.start" class="input w-full bg-white" placeholder="Type here" />
+            <input type="date" v-model="filter.start" class="input w-full bg-gray-300" placeholder="Type here" />
           </fieldset>
           <fieldset class="fieldset">
             <legend class="fieldset-legend text-black">Sampai tanggal</legend>
-            <input type="date" v-model="filter.end" class="input w-full bg-white" placeholder="Type here" />
+            <input type="date" v-model="filter.end" class="input w-full bg-gray-300" placeholder="Type here" />
           </fieldset>
           <button type="submit" class="btn btn-primary w-1/2">Filter</button>
         </div>

@@ -67,18 +67,18 @@ const updateOrder = async () => {
             <div class="mb-4">
                 <fieldset class="fieldset">
                     <legend class="fieldset-legend text-black">Nama Customer</legend>
-                    <input type="text" v-model="form.customer_name" class="input w-1/2 bg-gray-100"
+                    <input type="text" v-model="form.customer_name" class="input w-1/2 bg-gray-300"
                         placeholder="Type here" />
                 </fieldset>
                 <fieldset class="fieldset">
                     <legend class="fieldset-legend text-black">Tanggal Order</legend>
-                    <input type="date" v-model="form.order_date" class="input w-1/2 bg-gray-100"
+                    <input type="date" v-model="form.order_date" class="input w-1/2 bg-gray-300"
                         placeholder="Type here" />
                 </fieldset>
                 <fieldset class="fieldset">
                     <legend class="fieldset-legend text-black">Grand Total</legend>
-                    <input type="text" v-model="form.grand_total" class="input w-1/2 bg-gray-100"
-                        placeholder="Type here" />
+                    <input type="text" v-model="form.grand_total" class="input w-1/2 bg-gray-300"
+                        placeholder="Type here" readonly />
                 </fieldset>
             </div>
             <table class="table">
