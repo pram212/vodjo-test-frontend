@@ -1,8 +1,6 @@
 # front-end
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+Sebelum menjalankan front-end, jalankan backend terlebih dahulu
 
 ## Project Setup
 
@@ -25,3 +23,8 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### User Login
+
+email : test@example.com
+password : password
