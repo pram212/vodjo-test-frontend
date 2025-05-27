@@ -1,6 +1,6 @@
 # front-end
 
-Sebelum menjalankan front-end, jalankan backend terlebih dahulu
+Sebelum menjalankan front-end, jalankan backend/api terlebih dahulu
 
 ## Project Setup
 
@@ -26,5 +26,6 @@ npm run build
 
 ### User Login
 
+buka http://localhost:5173/ dan login dengan:
 email : test@example.com
 password : password
